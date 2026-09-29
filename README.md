@@ -47,11 +47,14 @@ and Adam to optimize softmax-parameterized source weights.
 **2. Correct the proxy estimate.** The OTROPE estimator combines the target proxy
 mean with weighted residuals from the labeled behavior samples (Eq. 6):
 
-$$
-\widehat V_{\mathrm{OTROPE}}(\pi)
-=\underbrace{\frac{1}{N}\sum_{j=1}^{N}\hat g(\tilde z_j)}_{\text{Target proxy mean}}
-+\underbrace{\sum_{i=1}^{n}w_i^*\bigl(g^*(z_i)-\hat g(z_i)\bigr)}_{\text{OT-weighted residual correction}}.
-$$
+```math
+\widehat{V}_{\mathrm{OTROPE}}(\pi)
+= \frac{1}{N}\sum_{j=1}^{N}\hat{g}(\tilde{z}_{j})
++ \sum_{i=1}^{n}w_{i}^{*}\bigl(g^{*}(z_{i})-\hat{g}(z_{i})\bigr).
+```
+
+The first term is the **target proxy mean**; the second is the
+**OT-weighted residual correction**.
 
 Behavior samples that better represent the target distribution receive greater
 influence in the correction. This yields a doubly robust-style estimator without
