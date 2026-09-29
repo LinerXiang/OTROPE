@@ -37,7 +37,7 @@ samples in embedding space (Eq. 4):
 
 $$
 w^* \in \arg\min_{w\in\Delta_n}
-W\!\left(
+W\left(
 \sum_{i=1}^{n}w_i\delta_{e(z_i)},
 \frac{1}{N}\sum_{j=1}^{N}\delta_{e(\tilde z_j)}
 \right).
