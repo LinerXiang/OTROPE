@@ -86,10 +86,6 @@ Llama-3.1-8B-Instruct, and Qwen2.5-14B-Instruct. DeepSeek-V3.1 is a separate
 strong-judge comparison. Additional baselines include IS, DR, PPI, and PPI++,
 with DM and raw OT used for ablation studies.
 
-## 📢 News
-
-- 🎉 OTROPE is accepted at **NeurIPS 2026**.
-
 ## 📐 Set up
 
 Use Python 3.10 or 3.11 and a Linux/CUDA environment compatible with vLLM for
