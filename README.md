@@ -6,7 +6,7 @@
   <a href="https://hengruicai.github.io/">Hengrui Cai</a>
 </p>
 
-**Accepted · Official implementation**
+**Accepted at NeurIPS 2026**
 
 ## 🏠 About
 
