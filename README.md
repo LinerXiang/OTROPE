@@ -240,4 +240,13 @@ scripts/                     # Bash launchers
 
 ## 📄 Citation
 
-The full citation will be added with the public paper link and author information.
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{xiang2026otrope,
+  title     = {{OTROPE}: Optimal Transport-based Robust Off-policy Evaluation for Large Language Models},
+  author    = {Xiang, Liner and Zhang, Wenbo and Cai, Hengrui},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2026}
+}
+```
