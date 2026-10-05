@@ -243,10 +243,10 @@ scripts/                     # Bash launchers
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{xiang2026otrope,
-  title     = {{OTROPE}: Optimal Transport-based Robust Off-policy Evaluation for Large Language Models},
-  author    = {Xiang, Liner and Zhang, Wenbo and Cai, Hengrui},
-  booktitle = {Advances in Neural Information Processing Systems},
-  year      = {2026}
+@article{xiang2026otrope,
+  title={OTROPE: Optimal Transport-based Robust Off-policy Evaluation for Large Language Models},
+  author={Xiang, Liner and Zhang, Wenbo and Cai, Hengrui},
+  journal={arXiv preprint arXiv:2609.36264},
+  year={2026}
 }
 ```
