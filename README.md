@@ -1,7 +1,7 @@
 # OTROPE: Optimal Transport-based Robust Off-policy Evaluation for Large Language Models
 
 <p align="center">
-  <a href="https://openreview.net/profile?id=~Liner_Xiang1">Liner Xiang</a> ·
+  <a href="[https://linerxiang.github.io/">Liner Xiang</a> ·
   <a href="https://onepounchman.github.io/">Wenbo Zhang</a> ·
   <a href="https://hengruicai.github.io/">Hengrui Cai</a>
 </p>
